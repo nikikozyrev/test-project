@@ -1,10 +1,12 @@
-.btn-outline-primary {
-    width: 37px;
-}
-
 .img-wrap {
     display: flex;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     align-items: center;
+}
+
+@media (max-width: 769px) {
+    .img-wrap {
+        height: 100%;
+    }
 }
